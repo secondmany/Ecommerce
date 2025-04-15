@@ -1,0 +1,69 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using BMBackend.Data;
+using BMBackend.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+
+
+[ApiController]
+[Route("api/auth")]
+public class AuthController : Controller{
+    private readonly AppDbContext _context;
+    private readonly IConfiguration _config;
+
+    public AuthController(AppDbContext context){
+        _context = context;
+    }
+
+    //API đăng nhập
+    [HttpPost("login")]
+    public async Task<ActionResult> Login([FromBody] LoginRequest request){
+        var user = await _context.Users
+            .FirstOrDefaultAsync(
+                u => u.Username == request.Username);
+        String hashPassword = BCrypt.Net.Bcrypt
+                .HashPassword(request.Password);
+        if (user == null || user.Password != hashPassword)
+            return Unauthorized();
+        
+        //Tạo token cho phiên đăng nhập
+        var token = GenerateJwtToken(user);
+
+        //Trả về thông tin người dùng và token
+        return Ok(new {Token = token, User = user});
+
+    }
+
+    //Phương thức tạo token
+    private String GenerateJwtToken(User user){
+        var jwtKey = _config["Jwt:Key"] ?? throw new InvalidOperationException("JWT key chưa được cấu hình");
+        var securityKey = new 
+            SymmetricsSecurityKey(
+                Encoding.UTF8.GetBytes(jwtKey));
+        var credentials = new SigningCredentials(
+            securityKey, SecurityAlgorithms.HmacSha256);
+        
+        var claims = new[]{
+            new Claim(JwtRegisteredClaimNames.Sub, 
+                user.Id.ToString()),
+            new Claim(ClaimTypes.Role, user.Role)
+        };
+
+        var token = new JwtSecurityToken(
+            issuer: _config["Jwt:Issuer"],
+            audience: _config["Jwt:Audience"],
+            claims: claims,
+            expires: DateTime.Now.AddMinutes(
+                    _config["Jwt:ExpiryInMinutes"]),
+            signingCredentials: credentials
+        )
+
+        return new JwtSecurityTokenHandler()
+                    .WriteToken(token);
+
+    }
+}

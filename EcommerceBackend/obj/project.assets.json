@@ -4603,26 +4603,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\": {}
+    "C:\\Users\\Mr. T\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IT SUPPORTER\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
       "projectName": "EcommerceBackend",
-      "projectPath": "C:\\Users\\IT SUPPORTER\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
-      "packagesPath": "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IT SUPPORTER\\Ecommerce\\EcommerceBackend\\obj\\",
+      "projectPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
+      "packagesPath": "C:\\Users\\Mr. T\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IT SUPPORTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Mr. T\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4635,6 +4633,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4697,6 +4700,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4705,7 +4726,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
