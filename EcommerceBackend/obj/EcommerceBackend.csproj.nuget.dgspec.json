@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj": {}
+    "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj": {
+    "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
         "projectName": "EcommerceBackend",
-        "projectPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
-        "packagesPath": "C:\\Users\\Mr. T\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\obj\\",
+        "projectPath": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
+        "packagesPath": "C:\\Users\\Trung Giang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mr. T\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Trung Giang\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -54,6 +49,10 @@
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
             },
             "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
@@ -86,6 +85,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.2.0, )"
             }
           },
           "imports": [
@@ -99,24 +102,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -125,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
