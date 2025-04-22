@@ -4608,11 +4608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
       "projectName": "EcommerceBackend",
-      "projectPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
+      "projectPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
       "packagesPath": "C:\\Users\\Mr. T\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\EcommerceBackend\\obj\\",
+      "outputPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mr. T\\AppData\\Roaming\\NuGet\\NuGet.Config"
