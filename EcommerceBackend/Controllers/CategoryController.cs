@@ -1,5 +1,5 @@
-
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Models;
 
 namespace Controllers{
@@ -31,9 +31,62 @@ namespace Controllers{
             }
         }
 
+        //Lấy danh mục theo id
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Category>> GetCategory(int id){
+            var category = await _context.Categories.FirstOrDefaultAsync(q => q.Id == id);
+
+            if (category == null)
+                return NotFound();
+            return category;
+        }
+
+        //Lấy toàn bộ danh mục
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Category>>> GetAllCategories(){
+            return await _context.Categories.ToListAsync();
+        }
+
+        //Cập nhật danh mục
+        [HttpPut("{id}")]
+        public async Task<IActionResult> 
+                UpdateCategory(int id, [FromBody] CategoryRequest request){            
+            var category = await _context.Categories.FirstOrDefaultAsync(q => q.Id == id);
+
+            if (category == null)
+                return NotFound();
+
+            category.Name = request.Name;
+            category.Description = request.Description;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(
+                new {
+                    message = "Cập nhật Category thành công."
+                }
+            );
+        }
+
+        //Xóa danh mục
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCategory(int id){
+            var category = await _context.Categories.FirstOrDefaultAsync(q => q.Id == id);
+
+            if (category == null)
+                return NotFound();
+            
+            _context.Categories.Remove(category);
+            await _context.SaveChangesAsync();
+
+            return Ok(
+                new {message = "Xóa Category thành công."}
+            );
+        }
+
     }
 
-    class CategoryRequest{
+    public class CategoryRequest{
         public string Name {get; set;}
         public string? Description {get; set;}
     }

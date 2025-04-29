@@ -1,39 +1,27 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
+    "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
+    "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "projectUniqueName": "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
         "projectName": "EcommerceBackend",
-        "projectPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
-        "packagesPath": "C:\\Users\\Mr. T\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\obj\\",
-=======
-    "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
-        "projectName": "EcommerceBackend",
-        "projectPath": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
-        "packagesPath": "C:\\Users\\Trung Giang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\obj\\",
->>>>>>> bdcf109d7b14c99e03963bdbd9be095001eee0c5
+        "projectPath": "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "packagesPath": "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\",
+        "outputPath": "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Trung Giang\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\NuGet.Config",
+          "C:\\Users\\IT SUPPORTER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "D:\\NugetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -124,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
