@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
+    "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
   },
   "projects": {
-    "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
+    "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "projectUniqueName": "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
         "projectName": "EcommerceBackend",
-        "projectPath": "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "projectPath": "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
         "packagesPath": "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\",
-        "outputPath": "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\obj\\",
+        "outputPath": "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\NuGet.Config",
-          "C:\\Users\\IT SUPPORTER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\NuGet.Config",
+          "C:\\Users\\IT SUPPORTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "D:\\NugetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
