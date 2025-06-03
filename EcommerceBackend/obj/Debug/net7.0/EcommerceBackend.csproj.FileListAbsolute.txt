@@ -178,7 +178,6 @@ C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\EcommerceBa
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\EcommerceBackend.csproj.CoreCompileInputs.cache
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\EcommerceBackend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\EcommerceBackend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\EcommerceBackend.sourcelink.json
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\staticwebassets\msbuild.EcommerceBackend.Microsoft.AspNetCore.StaticWebAssets.props
@@ -187,7 +186,6 @@ C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\staticwebas
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EcommerceBackend.props
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\scopedcss\bundle\EcommerceBackend.styles.css
-C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\Ecommerc.05309025.Up2Date
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\EcommerceBackend.dll
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\refint\EcommerceBackend.dll
 C:\Users\Mr. T\Ecommerce\Ecommerce\EcommerceBackend\obj\Debug\net7.0\EcommerceBackend.pdb
@@ -489,3 +487,6 @@ D:\0GiangTrung\Ecommerce\ecommercebackend\obj\Debug\net7.0\refint\EcommerceBacke
 D:\0GiangTrung\Ecommerce\ecommercebackend\obj\Debug\net7.0\EcommerceBackend.pdb
 D:\0GiangTrung\Ecommerce\ecommercebackend\obj\Debug\net7.0\EcommerceBackend.genruntimeconfig.cache
 D:\0GiangTrung\Ecommerce\ecommercebackend\obj\Debug\net7.0\ref\EcommerceBackend.dll
+C:\Users\Mr. T\Ecommerce\Ecommerce\ecommercebackend\bin\Debug\net7.0\Nuget.config
+C:\Users\Mr. T\Ecommerce\Ecommerce\ecommercebackend\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Mr. T\Ecommerce\Ecommerce\ecommercebackend\obj\Debug\net7.0\EcommerceBackend.csproj.CopyComplete

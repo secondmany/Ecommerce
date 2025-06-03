@@ -1,22 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
+    "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
   },
   "projects": {
-    "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
+    "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
         "projectName": "EcommerceBackend",
-        "projectPath": "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
-        "packagesPath": "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\",
-        "outputPath": "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\obj\\",
+        "projectPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "packagesPath": "C:\\Users\\Mr. T\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\0GiangTrung\\Ecommerce\\ecommercebackend\\NuGet.Config",
-          "C:\\Users\\IT SUPPORTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\NuGet.Config",
+          "C:\\Users\\Mr. T\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -112,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
