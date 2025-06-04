@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "T4uRFl0Vuctr3F7i+ueggOUDrU2TrmKEDdH/um/kNHI=",
+  "Hash": "9tMVdO7wQ/b1BRPtLM82vcDT775shD4dgbeqAleXKzc=",
   "Source": "EcommerceBackend",
   "BasePath": "_content/EcommerceBackend",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EcommerceBackend\\wwwroot",
+      "Source": "EcommerceBackend",
+      "ContentRoot": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "BasePath": "_content/EcommerceBackend",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

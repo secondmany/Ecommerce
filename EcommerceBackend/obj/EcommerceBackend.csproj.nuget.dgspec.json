@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
+    "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
+    "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
         "projectName": "EcommerceBackend",
-        "projectPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
-        "packagesPath": "C:\\Users\\Mr. T\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\obj\\",
+        "projectPath": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "packagesPath": "C:\\Users\\Trung Giang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mr. T\\Ecommerce\\Ecommerce\\ecommercebackend\\NuGet.Config",
-          "C:\\Users\\Mr. T\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\NuGet.Config",
+          "C:\\Users\\Trung Giang\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

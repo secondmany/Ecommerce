@@ -33,4 +33,16 @@ export const updateProduct = (id: number, data: any) =>
 export const deleteProduct = (id: number) => 
                   API.delete(`/products/${id}`);
 
+
+// Upload image
+export const uploadImage = (file: File) => {
+  const formData = new FormData();
+  formData.append('file', file);
+  return API.post('/files/upload', formData, {
+    headers: { "Content-Type": "multipart/form-data" }
+  });
+};
+
+
+
 export default API;

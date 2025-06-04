@@ -490,3 +490,5 @@ D:\0GiangTrung\Ecommerce\ecommercebackend\obj\Debug\net7.0\ref\EcommerceBackend.
 C:\Users\Mr. T\Ecommerce\Ecommerce\ecommercebackend\bin\Debug\net7.0\Nuget.config
 C:\Users\Mr. T\Ecommerce\Ecommerce\ecommercebackend\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Mr. T\Ecommerce\Ecommerce\ecommercebackend\obj\Debug\net7.0\EcommerceBackend.csproj.CopyComplete
+C:\Users\Trung Giang\Ecommerce\ecommercebackend\bin\Debug\net7.0\Nuget.config
+C:\Users\Trung Giang\Ecommerce\ecommercebackend\bin\Debug\net7.0\EcommerceBackend.staticwebassets.runtime.json

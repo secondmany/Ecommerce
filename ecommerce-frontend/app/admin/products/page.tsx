@@ -2,7 +2,8 @@
 
 import React, { useEffect, useState } from 'react';
 import { fetchProducts, createProduct, updateProduct, 
-    deleteProduct, fetchCategories } from '@/app/services/api';
+    deleteProduct, fetchCategories, 
+    uploadImage} from '@/app/services/api';
 import Modal from '@/components/Modal';
 
 type Product = {
@@ -27,6 +28,7 @@ export default function ProductPage() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [modalOpen, setModalOpen] = useState(false);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
+  const [uploading, setUploading] = useState(false);
 
   // Form state
   const [form, setForm] = useState<Omit<Product, 'id' | 'category' | 'createdAt'>>({
@@ -111,7 +113,7 @@ export default function ProductPage() {
       </button>
       {/* Bảng danh sách sản phẩm */}
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border rounded shadow">
+        <table className="min-w-full bg-white border rounded shadow text-gray-900">
           <thead>
             <tr>
               <th className="border p-2">ID</th>
@@ -193,13 +195,26 @@ export default function ProductPage() {
             required
           />
           <input
-            type="text"
-            name="imageUrl"
-            value={form.imageUrl}
-            onChange={handleChange}
-            placeholder="Ảnh URL"
+            type="file"
+            accept='image/*'
+            onChange = {async (e) => {
+              if (e.target.files && e.target.files[0]) {
+                setUploading(true);
+                try{
+                  const res = await uploadImage(e.target.files[0]);
+                  setForm({ ...form, imageUrl: res.data.imageUrl });
+                } catch (error) {
+                  alert("Tải ảnh lên thất bại!");
+                }
+                setUploading(false);
+              }
+            }}
             className="w-full border p-2"
           />
+          { form.imageUrl && (
+            <img src={form.imageUrl} alt="Product" className="w-32 h-32 object-cover my-2" />
+          )}
+          { uploading && <p className='text-sm text-blue-500'>Đang tải ảnh lên...</p> }
           <select
             name="categoryId"
             value={form.categoryId}
