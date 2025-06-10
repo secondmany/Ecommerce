@@ -62,6 +62,10 @@ public class AuthController : Controller{
             signingCredentials: credentials
         );
 
+        // Console.WriteLine("Issuer: " + _config["Jwt:Issuer"]);
+        // Console.WriteLine("Audience: " + _config["Jwt:Audience"]);
+        // Console.WriteLine("ExpiryInMinutes: " + _config["Jwt:ExpiryInMinutes"]);
+
         return new JwtSecurityTokenHandler()
                     .WriteToken(token);
 

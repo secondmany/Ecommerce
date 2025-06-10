@@ -1,21 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
+    "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
+    "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "projectUniqueName": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
         "projectName": "EcommerceBackend",
-        "projectPath": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
-        "packagesPath": "C:\\Users\\Trung Giang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\obj\\",
+        "projectPath": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+        "packagesPath": "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\",
+        "outputPath": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\NuGet.Config",
-          "C:\\Users\\Trung Giang\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\NuGet.Config",
+          "C:\\Users\\IT SUPPORTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -83,6 +84,10 @@
               "target": "Package",
               "version": "[7.0.20, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.12.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -111,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

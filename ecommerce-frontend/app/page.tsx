@@ -1,7 +1,7 @@
 'use client';
 
 import React, { use, useEffect } from "react";
-import { fetchProducts } from "./services/api";
+import { addToCart, fetchProducts } from "./services/api";
 
 export default function Home() {
   const [products, setProducts] = React.useState<any[]>([]);
@@ -11,6 +11,15 @@ export default function Home() {
       setProducts(res.data);
     })
   }, []);
+
+  const handleAddToCart = async (productId: number) => {
+    try{
+      await addToCart({productId, quantity: 1});
+      alert("Đã thêm sản phẩm vào giỏ.");
+    }catch (err){
+      alert("Lỗi khi thêm sản phẩm vào giỏ.");
+    }
+  };
 
   return (
     <div>
@@ -71,6 +80,7 @@ export default function Home() {
                   >
                     Xem chi tiết
                   </a>
+                  <button onClick={() => handleAddToCart(p.id)}>Thêm vào giỏ hàng</button>
                 </div>
               ))
             )}

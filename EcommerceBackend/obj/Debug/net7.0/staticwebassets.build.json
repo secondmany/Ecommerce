@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9tMVdO7wQ/b1BRPtLM82vcDT775shD4dgbeqAleXKzc=",
+  "Hash": "rBlmmM72flA/6/AiZeXR1VxLS928lzf9BoOkKdMCq8Q=",
   "Source": "EcommerceBackend",
   "BasePath": "_content/EcommerceBackend",
   "Mode": "Default",
@@ -10,10 +10,62 @@
     {
       "Name": "EcommerceBackend\\wwwroot",
       "Source": "EcommerceBackend",
-      "ContentRoot": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "ContentRoot": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\",
       "BasePath": "_content/EcommerceBackend",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\5485d523-6022-4d2d-acbc-15f87a5b33ae.jpg",
+      "SourceId": "EcommerceBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "BasePath": "_content/EcommerceBackend",
+      "RelativePath": "uploads/5485d523-6022-4d2d-acbc-15f87a5b33ae.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5485d523-6022-4d2d-acbc-15f87a5b33ae.jpg"
+    },
+    {
+      "Identity": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\99ed7186-308a-477c-9ed8-64ab74acaa3c.jpg",
+      "SourceId": "EcommerceBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "BasePath": "_content/EcommerceBackend",
+      "RelativePath": "uploads/99ed7186-308a-477c-9ed8-64ab74acaa3c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\99ed7186-308a-477c-9ed8-64ab74acaa3c.jpg"
+    },
+    {
+      "Identity": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\dc7f7c67-273c-4303-aba5-42e4c23b0bc3.jpg",
+      "SourceId": "EcommerceBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "BasePath": "_content/EcommerceBackend",
+      "RelativePath": "uploads/dc7f7c67-273c-4303-aba5-42e4c23b0bc3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dc7f7c67-273c-4303-aba5-42e4c23b0bc3.jpg"
+    }
+  ]
 }

@@ -25,7 +25,10 @@ export const deleteCategory = (id: number) => API.delete(
 
 
 // PRODUCT API
-export const fetchProducts = () => API.get("/products");
+export const fetchProducts = () => API.get("/products", {
+  headers: {
+    'Content-Type': 'application/json',  // Đảm bảo gửi header hợp lệ
+  },});
 export const createProduct = (data: any) =>
                   API.post("/products", data);
 export const updateProduct = (id: number, data: any) => 
@@ -43,6 +46,19 @@ export const uploadImage = (file: File) => {
   });
 };
 
+//Xử lý đăng nhập
+export const login = (username: string, password: string) => {
+  return API.post("/auth/login", {username, password});
+}
 
+//Xử lý giỏ hàng
+//Thêm sản phẩm vào giỏ
+export const addToCart = (data: {productId: number, quantity: number}) => {
+  return API.post("/cart/add", data, {
+    headers: {
+      Authorization: `Bearer ${localStorage.getItem('token')}`
+    }
+  });
+}
 
 export default API;
