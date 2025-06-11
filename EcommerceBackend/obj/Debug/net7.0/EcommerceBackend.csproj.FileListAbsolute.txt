@@ -593,3 +593,4 @@ D:\0.GiangTrung\PTUDTMDT\Ecommerce\ecommercebackend\obj\Debug\net7.0\EcommerceBa
 D:\0.GiangTrung\PTUDTMDT\Ecommerce\ecommercebackend\obj\Debug\net7.0\ref\EcommerceBackend.dll
 D:\0.GiangTrung\PTUDTMDT\Ecommerce\ecommercebackend\bin\Debug\net7.0\EcommerceBackend.staticwebassets.runtime.json
 D:\0.GiangTrung\PTUDTMDT\Ecommerce\ecommercebackend\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Trung Giang\Ecommerce\ecommercebackend\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll

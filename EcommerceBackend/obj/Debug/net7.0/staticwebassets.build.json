@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rBlmmM72flA/6/AiZeXR1VxLS928lzf9BoOkKdMCq8Q=",
+  "Hash": "LRr/HIEX2L20WdJIY6lEX4Jz20nURjA0bqCeDQbV/TQ=",
   "Source": "EcommerceBackend",
   "BasePath": "_content/EcommerceBackend",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "EcommerceBackend\\wwwroot",
       "Source": "EcommerceBackend",
-      "ContentRoot": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\",
       "BasePath": "_content/EcommerceBackend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\5485d523-6022-4d2d-acbc-15f87a5b33ae.jpg",
+      "Identity": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\0fcc2407-dff8-48e6-a010-08382291138f.png",
       "SourceId": "EcommerceBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\",
       "BasePath": "_content/EcommerceBackend",
-      "RelativePath": "uploads/5485d523-6022-4d2d-acbc-15f87a5b33ae.jpg",
+      "RelativePath": "uploads/0fcc2407-dff8-48e6-a010-08382291138f.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\5485d523-6022-4d2d-acbc-15f87a5b33ae.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\0fcc2407-dff8-48e6-a010-08382291138f.png"
     },
     {
-      "Identity": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\99ed7186-308a-477c-9ed8-64ab74acaa3c.jpg",
+      "Identity": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\1322df38-e86b-49d6-8112-f0fe469ec4e4.png",
       "SourceId": "EcommerceBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\",
       "BasePath": "_content/EcommerceBackend",
-      "RelativePath": "uploads/99ed7186-308a-477c-9ed8-64ab74acaa3c.jpg",
+      "RelativePath": "uploads/1322df38-e86b-49d6-8112-f0fe469ec4e4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\99ed7186-308a-477c-9ed8-64ab74acaa3c.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\1322df38-e86b-49d6-8112-f0fe469ec4e4.png"
     },
     {
-      "Identity": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\dc7f7c67-273c-4303-aba5-42e4c23b0bc3.jpg",
+      "Identity": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\3ceadab5-a960-4294-b241-3401cd2188a4.png",
       "SourceId": "EcommerceBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\",
       "BasePath": "_content/EcommerceBackend",
-      "RelativePath": "uploads/dc7f7c67-273c-4303-aba5-42e4c23b0bc3.jpg",
+      "RelativePath": "uploads/3ceadab5-a960-4294-b241-3401cd2188a4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\dc7f7c67-273c-4303-aba5-42e4c23b0bc3.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\3ceadab5-a960-4294-b241-3401cd2188a4.png"
+    },
+    {
+      "Identity": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\uploads\\ecb1527e-2b2e-4d7a-bd07-f09aa49a9719.png",
+      "SourceId": "EcommerceBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Trung Giang\\Ecommerce\\ecommercebackend\\wwwroot\\",
+      "BasePath": "_content/EcommerceBackend",
+      "RelativePath": "uploads/ecb1527e-2b2e-4d7a-bd07-f09aa49a9719.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ecb1527e-2b2e-4d7a-bd07-f09aa49a9719.png"
     }
   ]
 }

@@ -17,7 +17,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer = true,
+            ValidateIssuer = false,
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
@@ -27,9 +27,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         options.Events = new JwtBearerEvents
         {
             OnAuthenticationFailed = context =>
-            {
-                Console.WriteLine("Authentication failed: " + context.Exception.Message);
-                Console.WriteLine("Issuer: " + builder.Configuration["Jwt:Issuer"]);  // Thêm logging chi tiết                
+            {                
                 return Task.CompletedTask;
             },
             OnTokenValidated = context =>
@@ -76,17 +74,11 @@ app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 
 app.Use(async (context, next) =>
-{
-    // In ra tất cả các headers trong request
-    foreach (var header in context.Request.Headers)
-    {
-        Console.WriteLine($"{header.Key}: {header.Value}");
-    }
-
-    // Tiếp tục xử lý yêu cầu
+{    
     await next.Invoke();
 });
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

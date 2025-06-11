@@ -4376,21 +4376,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\": {}
+    "C:\\Users\\Trung Giang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
       "projectName": "EcommerceBackend",
-      "projectPath": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\EcommerceBackend.csproj",
-      "packagesPath": "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\",
-      "outputPath": "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\obj\\",
+      "projectPath": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
+      "packagesPath": "C:\\Users\\Trung Giang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\0.GiangTrung\\PTUDTMDT\\Ecommerce\\ecommercebackend\\NuGet.Config",
-        "C:\\Users\\IT SUPPORTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Trung Giang\\Ecommerce\\EcommerceBackend\\NuGet.Config",
+        "C:\\Users\\Trung Giang\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -4490,7 +4489,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
       }
     }
   }

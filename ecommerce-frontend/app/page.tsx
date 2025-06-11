@@ -2,6 +2,7 @@
 
 import React, { use, useEffect } from "react";
 import { addToCart, fetchProducts } from "./services/api";
+import Link from "next/link";
 
 export default function Home() {
   const [products, setProducts] = React.useState<any[]>([]);
@@ -80,13 +81,21 @@ export default function Home() {
                   >
                     Xem chi tiết
                   </a>
-                  <button onClick={() => handleAddToCart(p.id)}>Thêm vào giỏ hàng</button>
+                  <button onClick={() => handleAddToCart(p.id)} className="bg-yellow-600 text-white rounded py-2 mt-2">Thêm vào giỏ hàng</button>
                 </div>
               ))
             )}
           </div>
         </div>
       </section>
+
+      {/* Link đến trang giỏ hàng */}
+      <div className="text-center mt-4">
+        <Link href="/cart" className="inline-block bg-blue-600 text-white 
+                  py-2 px-4 rounded hover:bg-blue-700 transition">
+            Xem giỏ hàng
+        </Link>
+      </div>
 
       {/* Footer đơn giản */}
       <footer className="mt-12 py-8 bg-gray-800 text-center text-gray-200">
